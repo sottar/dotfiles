@@ -1,0 +1,40 @@
+[core]
+  pager = less -q -R
+  excludesfile = ~/.gitignore
+  preloadindex = true
+[color]
+  ui = always
+[color "diff"]
+  meta = yellow bold
+  commit = green bold
+  frag = magenta bold
+  old = green bold
+  new = red bold
+  whitespace = red reverse
+[color "diff-highlight"]
+  oldNormal = red bold
+  oldHighlight = "red bold 52"
+  newNormal = "green bold"
+  newHighlight = "green bold 22"
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = yellow
+[alias]
+  ad = add
+  br = branch
+  ba = branch -a
+  c = commit
+  co = checkout
+  cb = checkout -b
+  d = diff
+  s = stash
+  sp = stash pop
+  st = status
+[user]
+  email = ohrst.18@gmail.com
+  name = sottar
