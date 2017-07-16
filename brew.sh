@@ -10,6 +10,7 @@ brew install go
 brew install jq
 brew install peco
 brew install tig
+brew install tmux
 brew install vim
 brew install wget
 brew install z
