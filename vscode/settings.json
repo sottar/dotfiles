@@ -1,0 +1,18 @@
+{
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "editor.renderWhitespace": "all",
+  "workbench.colorTheme": "Visual Studio Dark",
+  "workbench.iconTheme": "vs-seti",
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 0,
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "files.associations": {
+    "*.tag": "html"
+  },
+  "flow.pathToFlow": "./node_modules/.bin/flow",
+  "javascript.validate.enable": false,
+  "vim.disableAnnoyingNeovimMessage": true
+}
