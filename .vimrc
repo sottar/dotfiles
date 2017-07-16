@@ -7,7 +7,7 @@ set backspace=indent,eol,start
 set clipboard=unnamed,autoselect
 set cursorline
 set display=lastline
-set expandta
+set expandtab
 set hidden
 set history=50
 set hlsearch
@@ -16,12 +16,16 @@ set incsearch
 set list
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 set mouse=a
-set nrformats-=octal
+set nobackup
+set noswapfile
 set number
+set nrformats-=octal
 set pumheight=10
 set ruler
 set shiftwidth=2
 set showcmd
+set showmatch
+set showmode
 set smartcase
 set smartindent
 set smarttab
@@ -33,6 +37,7 @@ set tabstop=2
 set visualbell
 set virtualedit=block
 set whichwrap=b,s,[,],<,>
+set wildmenu
 set wildmode=list:longest,full
 set wrapscan
 
@@ -85,11 +90,15 @@ inoremap { {}<LEFT>
 
 autocmd FileType json setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType yml  setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType xml  setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType sh   setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType zsh  setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType yml setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType xml setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType sh setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType zsh setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType css  setlocal shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType js   setlocal shiftwidth=2 tabstop=2 softtabstop=2
-
+autocmd FileType css setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType js setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
+autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
