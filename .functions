@@ -1,0 +1,33 @@
+
+# Create a new directory and enter it
+function md() {
+  mkdir -p "$@" && cd "$@"
+}
+
+# Escape UTF-8 characters into their 3-byte format
+function escape() {
+  printf "\\\x%s" $(printf "$@" | xxd -p -c1 -u)
+  echo # newline
+}
+
+# Decode \x{ABCD}-style Unicode escape sequences
+function unidecode() {
+  perl -e "binmode(STDOUT, ':utf8'); print \"$@\""
+  echo # newline
+}
+
+# sublime
+function sblm() {
+  open -a Sublime\ Text $(get_target_repo $1)
+}
+
+# vscode
+function code() {
+  open -a Visual\ Studio\ Code $(get_target_repo $1)
+}
+
+#atom
+function atom() {
+  open -a Atom $(get_target_repo $1)
+}
+

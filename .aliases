@@ -1,4 +1,8 @@
 alias g="git"
+alias ga="git add"
+alias gco="git checkout"
+alias gd="git diff"
+alias gst="git status"
 alias l='ls -lFh'
 alias mv='mv -v'
 alias rm='rm -i -v'
@@ -7,3 +11,4 @@ alias ~='cd ~'
 alias ll='ls -l'
 alias la='ls -al'
 alias d='cd ~/Desktop'
+alias v='vim'

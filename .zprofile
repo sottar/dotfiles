@@ -4,6 +4,10 @@ export LANG=ja_JP.UTF-8
 # show japanese files
 setopt print_eight_bit
 
+for file in ~/.{aliases,functions}; do
+  [ -r "$file" ] && source "$file"
+done
+
 # nodenv
 export NODENV_ROOT="$HOME/.nodenv"
 export PATH="$NODENV_ROOT/bin:$PATH"

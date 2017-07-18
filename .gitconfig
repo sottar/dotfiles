@@ -23,7 +23,7 @@
 [color "status"]
   added = green
   changed = yellow
-  untracked = yellow
+  untracked = red
 [alias]
   ad = add
   br = branch
@@ -38,3 +38,4 @@
 [user]
   email = ohrst.18@gmail.com
   name = sottar
+
