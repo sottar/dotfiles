@@ -36,7 +36,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "shift+l",
+    "key": "ctrl+l",
     "command": "cursorRight",
     "when": "editorTextFocus"
   },
