@@ -1,8 +1,12 @@
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="original2"
+plugins=(git)
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+source $ZSH/oh-my-zsh.sh
 
-# vscode
-code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+for file in ~/.{functions,aliases}; do
+  [ -r "$file" ] && source "$file"
+done
 
 # z
 . /usr/local/etc/profile.d/z.sh
