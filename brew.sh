@@ -20,7 +20,7 @@ brew tap caskroom/versions
 
 brew cask install alfred
 brew cask install bettertouchtool
-brew cask install clipmenu
+brew cask install clipy
 brew cask install firefox
 brew cask install google-chrome
 brew cask install google-chrome-canary
