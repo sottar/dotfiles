@@ -18,6 +18,7 @@ brew install zsh
 
 brew tap caskroom/versions
 
+brew cask install alfred
 brew cask install bettertouchtool
 brew cask install clipmenu
 brew cask install firefox
