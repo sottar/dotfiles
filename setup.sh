@@ -24,6 +24,7 @@ ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 ln -sf ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
+ln -sf ~/dotfiles/oh-my-zsh/original.zsh-theme ~/oh-my-zsh/themes/original.zsh-theme
 
 # compile zshrc
 zcompile ~/.zshrc
