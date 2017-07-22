@@ -4,10 +4,9 @@ export LANG=ja_JP.UTF-8
 # show japanese files
 setopt print_eight_bit
 
-# nodenv
-export NODENV_ROOT="$HOME/.nodenv"
-export PATH="$NODENV_ROOT/bin:$PATH"
-eval "$(nodenv init -)"
+# nodbrew
+export NODBREW_ROOT="$HOME/.nodebrew"
+export PATH="$NODBREW_ROOT/current/bin:$PATH"
 
 # rbenv
 export RBENV_ROOT="$HOME/.rbenv"
