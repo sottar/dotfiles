@@ -76,7 +76,7 @@
     "when": "explorerViewletVisible && explorerViewletFocus"
   },
   {
-    "key": "cmd+a",
+    "key": "shift+a",
     "command": "explorer.newFolder",
     "when": "explorerViewletVisible && explorerViewletFocus"
   }
