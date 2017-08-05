@@ -8,8 +8,8 @@
   meta = yellow bold
   commit = green bold
   frag = magenta bold
-  old = green bold
-  new = red bold
+  old = red bold
+  new = green bold
   whitespace = red reverse
 [color "diff-highlight"]
   oldNormal = red bold
@@ -38,4 +38,3 @@
 [user]
   email = ohrst.18@gmail.com
   name = sottar
-
