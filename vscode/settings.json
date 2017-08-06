@@ -14,5 +14,6 @@
   },
   "flow.pathToFlow": "./node_modules/.bin/flow",
   "javascript.validate.enable": false,
-  "vim.disableAnnoyingNeovimMessage": true
+  "vim.disableAnnoyingNeovimMessage": true,
+  "typescript.check.npmIsInstalled": false
 }
