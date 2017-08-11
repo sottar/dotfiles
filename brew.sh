@@ -25,6 +25,7 @@ brew cask install firefox
 brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install iterm2
+brew cask install sequel-pro
 brew cask install sketch
 brew cask install slack
 brew cask install sublime-text
