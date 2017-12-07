@@ -61,11 +61,6 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+e",
-    "command": "editor.emmet.action.expandAbbreviation",
-    "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !config.emmet.useNewEmmet && !editorHasMultipleSelections && !editorHasSelection && !editorReadonly && !editorTabMovesFocus"
-  },
-  {
     "key": "tab",
     "command": "-editor.emmet.action.expandAbbreviation",
     "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !config.emmet.useNewEmmet && !editorHasMultipleSelections && !editorHasSelection && !editorReadonly && !editorTabMovesFocus"
@@ -79,5 +74,9 @@
     "key": "shift+a",
     "command": "explorer.newFolder",
     "when": "explorerViewletVisible && explorerViewletFocus"
+  },
+  {
+    "key": "ctrl+8",
+    "command": "_webview.openDevTools"
   }
 ]
