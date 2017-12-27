@@ -1,0 +1,7 @@
+{
+	"console#log": {
+		"prefix": "conl",
+		"body": "console.log()",
+		"description": "console#log"
+	}
+}
