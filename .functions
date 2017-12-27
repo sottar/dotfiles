@@ -45,3 +45,8 @@ function current_repository() {
   echo $($_omz_git_git_cmd remote -v | cut -d':' -f 2)
 }
 
+# open memo in vscode
+function memo() {
+   open -a Visual\ Studio\ Code ~/workspace/memo;
+}
+
