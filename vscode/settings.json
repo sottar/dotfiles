@@ -7,6 +7,8 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.iconTheme": "vs-seti",
   "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "window.zoomLevel": 1,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.associations": {
@@ -23,6 +25,10 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "editor.formatOnPaste": true,
-  "emmet.triggerExpansionOnTab": true
+  "emmet.triggerExpansionOnTab": true,
+  "python.formatting.provider": "yapf",
+  "python.linting.flake8Enabled": true,
+  "[python]": {
+    "editor.tabSize": 4
+  },
 }
