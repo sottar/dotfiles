@@ -7,8 +7,6 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.iconTheme": "vs-seti",
   "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
   "window.zoomLevel": 1,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.associations": {
@@ -29,6 +27,17 @@
   "python.formatting.provider": "yapf",
   "python.linting.flake8Enabled": true,
   "[python]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
     "editor.tabSize": 4
   },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "explorer.confirmDragAndDrop": false
 }
