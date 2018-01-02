@@ -29,6 +29,7 @@ ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
 # ln -sf ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 # ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+# ln -sf ~/dotfiles/vscode/snippets/* ~/Library/Application\ Support/Code/User/snippets/
 # ln -sf ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
 mkdir ~/oh-my-zsh
 mkdir ~/oh-my-zsh/themes
