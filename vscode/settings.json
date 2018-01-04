@@ -4,9 +4,12 @@
   "editor.tabSize": 2,
   "editor.cursorStyle": "line",
   "editor.renderWhitespace": "all",
+  "editor.wordWrap": "on",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.iconTheme": "vs-seti",
-  "editor.wordWrap": "on",
+  "workbench.panel.location": "right",
   "window.zoomLevel": 1,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.associations": {
@@ -23,6 +26,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+
   "emmet.triggerExpansionOnTab": true,
   "python.formatting.provider": "yapf",
   "python.linting.flake8Enabled": true,
@@ -38,6 +42,5 @@
   "[javascriptreact]": {
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true
-  },
-  "explorer.confirmDragAndDrop": false
+  }
 }
