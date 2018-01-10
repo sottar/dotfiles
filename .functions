@@ -47,6 +47,10 @@ function current_repository() {
 
 # open memo in vscode
 function memo() {
-   open -a Visual\ Studio\ Code ~/workspace/memo;
+  echo 'pulling latest...'
+  cd ~/workspace/memo
+  ggpull
+  cd -
+  open -a Visual\ Studio\ Code ~/workspace/memo;
 }
 
