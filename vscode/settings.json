@@ -30,6 +30,7 @@
   "emmet.triggerExpansionOnTab": true,
   "python.formatting.provider": "yapf",
   "python.linting.flake8Enabled": true,
+  "python.formatting.yapfArgs": ["--style", "{based_on_style: google, column_limit: 120}"],
   "[python]": {
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
