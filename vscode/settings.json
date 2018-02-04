@@ -43,5 +43,8 @@
   "[javascriptreact]": {
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true
+  },
+  "eslint.options": {
+    "ignorePath": "/Users/SotaOhara/.eslintignore"
   }
 }
