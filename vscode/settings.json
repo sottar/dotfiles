@@ -45,6 +45,7 @@
     "editor.formatOnPaste": true
   },
   "eslint.options": {
-    "ignorePath": "/Users/SotaOhara/.eslintignore"
+    "ignorePath": "~/Library/Application Support/Code/User/.eslintignore"
+
   }
 }
