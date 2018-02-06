@@ -1,0 +1,8 @@
+set main-view = id date author commit-title:graph=yes,refs=yes
+set blame-view = date:default author id:yes,color line-number:yes,interval=1 text
+
+set line-graphics = utf-8
+set mouse = true
+
+bind main G !@hub browse -- commit/%(commit)
+bind diff G !@hub browse -- commit/%(commit)
