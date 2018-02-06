@@ -30,3 +30,5 @@ alias ll='ls -l'
 alias la='ls -al'
 alias d='cd ~/Desktop'
 alias v='vim'
+
+alias b='bundle exec'
