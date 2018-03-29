@@ -53,3 +53,11 @@ function memo() {
   cd -
   open -a Visual\ Studio\ Code ~/workspace/memo;
 }
+
+function o() {
+  if [ "$1" = "" ]; then
+    open .
+  else
+    open "$1"
+  fi
+}
