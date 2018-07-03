@@ -66,14 +66,14 @@
     "when": "config.emmet.triggerExpansionOnTab && editorTextFocus && !config.emmet.useNewEmmet && !editorHasMultipleSelections && !editorHasSelection && !editorReadonly && !editorTabMovesFocus"
   },
   {
-    "key": "cmd+n",
+    "key": "a",
     "command": "explorer.newFile",
-    "when": "explorerViewletVisible && explorerViewletFocus"
+    "when": "explorerViewletFocus"
   },
   {
-    "key": "cmd+shift+n",
+    "key": "shift+a",
     "command": "explorer.newFolder",
-    "when": "explorerViewletVisible && explorerViewletFocus"
+    "when": "explorerViewletFocus"
   },
   {
     "key": "ctrl+8",
