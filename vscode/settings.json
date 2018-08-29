@@ -14,17 +14,20 @@
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.associations": {
     "*.tag": "html",
-    "*.twig": "php"
+    "*.twig": "php",
+    "*.ts": "typescriptreact"
   },
   "flow.pathToFlow": "./node_modules/.bin/flow",
   "javascript.validate.enable": false,
   "vim.disableAnnoyingNeovimMessage": true,
   "typescript.check.npmIsInstalled": false,
   "emmet.syntaxProfiles": {
-    "javascript": "jsx"
+    "javascript": "jsx",
+    "javascript": "ts"
   },
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "javascript": "typescriptreact"
   },
 
   "emmet.triggerExpansionOnTab": true,
@@ -37,11 +40,22 @@
     "editor.tabSize": 4
   },
   "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
+    // "editor.formatOnSave": true,
+    // "editor.formatOnPaste": true
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true
-  }
+    // "editor.formatOnSave": true,
+    // "editor.formatOnPaste": true
+  },
+  "[typescript]": {
+    // "editor.formatOnSave": true,
+    // "editor.formatOnPaste": true
+  },
+  "[typescriptreact]": {
+    // "editor.formatOnSave": true,
+    // "editor.formatOnPaste": true
+  },
+  "prettier.tslintIntegration": true,
+  "prettier.eslintIntegration": true,
+  "workbench.tree.horizontalScrolling": true,
 }
