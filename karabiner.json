@@ -75,7 +75,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open /System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app"
+                                        "shell_command": "open /System/Library/CoreServices/ScreenSaverEngine.app"
                                     }
                                 ],
                                 "type": "basic"
