@@ -61,3 +61,8 @@ function o() {
     open "$1"
   fi
 }
+
+# npm run
+function nr() {
+  npm run $*;
+}
