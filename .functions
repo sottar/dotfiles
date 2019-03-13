@@ -64,6 +64,6 @@ function o() {
 
 # npm run
 function nr() {
-  echo -e "\e[30;1mnpm run $* \e[m"
+  echo -e "\e[30;1m> npm run $* \e[m"
   npm run $*;
 }
