@@ -62,6 +62,18 @@ function o() {
   fi
 }
 
+# npm
+function n() {
+  echo -e "\e[30;1m> npm $* \e[m"
+  npm $*;
+}
+
+# npm
+function ni() {
+  echo -e "\e[30;1m> npm install \e[m"
+  npm install;
+}
+
 # npm run
 function nr() {
   echo -e "\e[30;1m> npm run $* \e[m"
