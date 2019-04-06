@@ -71,7 +71,7 @@
     "when": "explorerViewletFocus"
   },
   {
-    "key": "shift+n",
+    "key": "cmd+shift+n",
     "command": "explorer.newFolder",
     "when": "explorerViewletFocus"
   },
