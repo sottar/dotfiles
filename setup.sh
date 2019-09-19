@@ -22,7 +22,6 @@ cp vim-railscasts-theme/colors/railscasts.vim ~/.vim/colors/railscasts.vim
 
 # symlinks
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
-ln -sf ~/dotfiles/.zprofile ~/.zprofile
 ln -sf ~/dotfiles/.aliases ~/.aliases
 ln -sf ~/dotfiles/.functions ~/.functions
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
@@ -38,7 +37,7 @@ mkdir ~/oh-my-zsh
 mkdir ~/oh-my-zsh/themes
 ln -sf ~/dotfiles/oh-my-zsh/original.zsh-theme ~/oh-my-zsh/themes/original.zsh-theme
 
-source ~/.zshrc & source ~/.zprofile
+source ~/.zshrc
 
 # compile zshrc
 zcompile ~/.zshrc

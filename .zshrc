@@ -28,6 +28,12 @@ eval "$(pyenv init -)"
 export GOPATH="$HOME/.go"
 export PATH=$PATH:$GOPATH/bin
 
+# deno
+export PATH="$HOME/.deno/bin:$PATH"
+
+# rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # include external files
 for file in ~/.{functions,aliases}; do
   [ -r "$file" ] && source "$file"
@@ -72,3 +78,15 @@ function peco-select-history() {
 }
 zle -N peco-select-history
 bindkey '^r' peco-select-history
+
+# The next line updates PATH for the Google Cloud SDK.
+# if [ -f '/Applications/google-cloud-sdk/path.zsh.inc' ]; then source '/Applications/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Applications/google-cloud-sdk/completion.zsh.inc' ]; then source '/Applications/google-cloud-sdk/completion.zsh.inc'; fi
+export PATH="/usr/local/opt/php@7.1/bin:$PATH"
+# export PATH="/usr/local/opt/php@7.1/sbin:$PATH"
+
+if [ -f '/Users/sottar/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/sottar/google-cloud-sdk/path.zsh.inc'; fi
+
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/sottar/gcp-keys/kouzoh-campaign-pages-jp-dev-474a20d1b8d4.json"
