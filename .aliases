@@ -22,7 +22,7 @@ alias ggpushf='git push -f origin $(git_current_branch)'
 compdef _git ggpushf=git-checkout
 
 alias mv='mv -v'
-alias rm='rm -i -v'
+alias rm='rm'
 alias cp='cp -v'
 alias ~='cd ~'
 alias l='ls -lah'
