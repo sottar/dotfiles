@@ -79,14 +79,11 @@ function peco-select-history() {
 zle -N peco-select-history
 bindkey '^r' peco-select-history
 
+# deno
+export PATH=/Users/SotaOhara/.deno/bin:$PATH
+
 # The next line updates PATH for the Google Cloud SDK.
-# if [ -f '/Applications/google-cloud-sdk/path.zsh.inc' ]; then source '/Applications/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Applications/google-cloud-sdk/completion.zsh.inc' ]; then source '/Applications/google-cloud-sdk/completion.zsh.inc'; fi
-export PATH="/usr/local/opt/php@7.1/bin:$PATH"
-# export PATH="/usr/local/opt/php@7.1/sbin:$PATH"
-
-if [ -f '/Users/sottar/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/sottar/google-cloud-sdk/path.zsh.inc'; fi
-
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/sottar/gcp-keys/kouzoh-campaign-pages-jp-dev-474a20d1b8d4.json"
+if [ -f '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/completion.zsh.inc'; fi

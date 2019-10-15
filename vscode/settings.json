@@ -9,8 +9,8 @@
   "explorer.confirmDelete": false,
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.iconTheme": "vs-seti",
-  // "workbench.panel.location": "right",
-  "window.zoomLevel": 2,
+  "workbench.panel.location": "right",
+  "window.zoomLevel": 0,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.associations": {
     "*.tag": "html",
@@ -29,7 +29,6 @@
     "javascript": "javascriptreact",
     "javascript": "typescriptreact"
   },
-
   "emmet.triggerExpansionOnTab": true,
   "python.formatting.provider": "yapf",
   "python.linting.flake8Enabled": true,
@@ -58,5 +57,17 @@
   "workbench.tree.horizontalScrolling": true,
   "breadcrumbs.enabled": true,
   "prettier.stylelintIntegration": true,
-  "prettier.tslintIntegration": true
+  "prettier.tslintIntegration": true,
+  "[go]": {
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnSave": true,
+  // "editor.formatOnPaste": true
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.requireConfig": true,
+  "java.configuration.checkProjectSettingsExclusions": false
 }
