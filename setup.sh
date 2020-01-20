@@ -6,6 +6,9 @@ sh brew.sh
 echo "/usr/local/bin/zsh" >> /etc/shells
 chsh -s /usr/local/bin/zsh
 
+# install rustup
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 #install nodenv, rbenv, pyenv
 git clone https://github.com/nodenv/nodenv.git ~/.nodenv
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
