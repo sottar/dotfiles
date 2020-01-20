@@ -11,8 +11,8 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source $ZSH/oh-my-zsh.sh
 
 # nodbrew
-export NODBREW_ROOT="$HOME/.nodebrew"
-export PATH="$NODBREW_ROOT/current/bin:$PATH"
+export NODENV_ROOT="$HOME/.nodenv"
+export PATH="$NODENV_ROOT/bin:$PATH"
 
 # rbenv
 export RBENV_ROOT="$HOME/.rbenv"

@@ -6,8 +6,8 @@ sh brew.sh
 echo "/usr/local/bin/zsh" >> /etc/shells
 chsh -s /usr/local/bin/zsh
 
-#install nodebrew, rbenv, pyenv
-curl -L git.io/nodebrew | perl - setup
+#install nodenv, rbenv, pyenv
+git clone https://github.com/nodenv/nodenv.git ~/.nodenv
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 git clone https://github.com/yyuu/pyenv.git ~/.pyenv
