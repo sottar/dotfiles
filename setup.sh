@@ -22,6 +22,7 @@ git clone git@github.com:jpo/vim-railscasts-theme.git
 mkdir  ~/.vim/
 mkdir ~/.vim/colors/
 cp vim-railscasts-theme/colors/railscasts.vim ~/.vim/colors/railscasts.vim
+rm -rf vim-railscasts-theme/
 
 # symlinks
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
@@ -36,9 +37,10 @@ ln -sf ~/dotfiles/.tigrc ~/.tigrc
 # ln -sf ~/dotfiles/vscode/.eslintignore ~/Library/Application\ Support/Code/User/.eslintignore
 # ln -sf ~/dotfiles/vscode/snippets/* ~/Library/Application\ Support/Code/User/snippets/
 # ln -sf ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
-mkdir ~/oh-my-zsh
-mkdir ~/oh-my-zsh/themes
-ln -sf ~/dotfiles/oh-my-zsh/original.zsh-theme ~/oh-my-zsh/themes/original.zsh-theme
+
+# ohmyzsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ln -sf ~/dotfiles/oh-my-zsh/original.zsh-theme ~/.oh-my-zsh/themes/original.zsh-theme
 
 source ~/.zshrc
 
