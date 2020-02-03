@@ -10,9 +10,11 @@ plugins=(git)
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source $ZSH/oh-my-zsh.sh
 
-# nodbrew
+# nodenv
 export NODENV_ROOT="$HOME/.nodenv"
 export PATH="$NODENV_ROOT/bin:$PATH"
+export PATH="$NODENV_ROOT/shims:/usr/local/bin:/usr/bin:/bin"
+eval "$(nodenv init -)"
 
 # rbenv
 export RBENV_ROOT="$HOME/.rbenv"
@@ -87,3 +89,4 @@ if [ -f '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/path.zsh
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/completion.zsh.inc'; fi
+export PATH="$HOME/.nodenv/bin:$PATH"
