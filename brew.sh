@@ -5,6 +5,7 @@ brew install ag
 brew install autoconf
 brew install direnv
 brew install hugo
+brew install node-build
 brew install git
 brew install go
 brew install jq

@@ -10,7 +10,7 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.iconTheme": "vs-seti",
   "workbench.panel.location": "right",
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 1,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.associations": {
     "*.tag": "html",
