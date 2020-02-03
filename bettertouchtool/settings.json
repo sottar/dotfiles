@@ -1,70 +1,64 @@
 {
-  "BTTPresetName" : "Default",
-  "BTTPresetUUID" : "328F322D-F1FF-4489-AC7C-A6C9B59F2C44",
-  "BTTPresetContent" : [
+  "BTTPresetName": "Preset1",
+  "BTTPresetUUID": "328F322D-F1FF-4489-AC7C-A6C9B59F2C44",
+  "BTTPresetContent": [
     {
-      "BTTAppBundleIdentifier" : "BT.G",
-      "BTTAppName" : "Global",
-      "BTTAppSpecificSettings" : {
-
-      },
-      "BTTTriggers" : [
+      "BTTAppBundleIdentifier": "BT.G",
+      "BTTAppName": "Global",
+      "BTTAppSpecificSettings": {},
+      "BTTTriggers": [
         {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 19,
-          "BTTPredefinedActionName" : "Maximize Window Left",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 123,
-          "BTTShortcutModifierKeys" : 9699328,
-          "BTTOrder" : 2,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
+          "BTTTriggerClass": "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType": 19,
+          "BTTPredefinedActionName": "Maximize Window Left",
+          "BTTEnabled": 1,
+          "BTTShortcutKeyCode": 123,
+          "BTTShortcutModifierKeys": 9699328,
+          "BTTOrder": 2,
+          "BTTIconData": "",
+          "BTTAlternateIconData": ""
         },
         {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : -1,
-          "BTTPredefinedActionName" : "No Action",
-          "BTTAdditionalConfiguration" : "1048576",
-          "BTTTriggerOnDown" : 1,
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 46,
-          "BTTShortcutModifierKeys" : 1048576,
-          "BTTOrder" : 3
+          "BTTTriggerClass": "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType": -1,
+          "BTTPredefinedActionName": "No Action",
+          "BTTAdditionalConfiguration": "1048576",
+          "BTTTriggerOnDown": 1,
+          "BTTEnabled": 1,
+          "BTTShortcutKeyCode": 46,
+          "BTTShortcutModifierKeys": 1048576,
+          "BTTOrder": 3
         },
         {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 20,
-          "BTTPredefinedActionName" : "Maximize Window Right",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 124,
-          "BTTShortcutModifierKeys" : 9699328,
-          "BTTOrder" : 1,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
+          "BTTTriggerClass": "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType": 20,
+          "BTTPredefinedActionName": "Maximize Window Right",
+          "BTTEnabled": 1,
+          "BTTShortcutKeyCode": 124,
+          "BTTShortcutModifierKeys": 9699328,
+          "BTTOrder": 1,
+          "BTTIconData": "",
+          "BTTAlternateIconData": ""
         },
         {
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 21,
-          "BTTPredefinedActionName" : "Maximize Window",
-          "BTTAdditionalConfiguration" : "9699328",
-          "BTTEnabled" : 1,
-          "BTTShortcutKeyCode" : 125,
-          "BTTShortcutModifierKeys" : 9699328,
-          "BTTOrder" : 0,
-          "BTTIconData" : "",
-          "BTTAlternateIconData" : ""
+          "BTTTriggerClass": "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType": 21,
+          "BTTPredefinedActionName": "Maximize Window",
+          "BTTAdditionalConfiguration": "9699328",
+          "BTTEnabled": 1,
+          "BTTShortcutKeyCode": 125,
+          "BTTShortcutModifierKeys": 9699328,
+          "BTTOrder": 0,
+          "BTTIconData": "",
+          "BTTAlternateIconData": ""
         }
       ]
     },
     {
-      "BTTAppBundleIdentifier" : "com.apple.finder",
-      "BTTAppName" : "Finder",
-      "BTTTriggers" : [
-
-      ]
+      "BTTAppBundleIdentifier": "com.apple.finder",
+      "BTTAppName": "Finder",
+      "BTTTriggers": []
     }
   ],
-  "BTTPresetSnapAreas" : [
-
-  ]
+  "BTTPresetSnapAreas": []
 }
