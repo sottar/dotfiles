@@ -32,3 +32,5 @@ alias d='cd ~/Desktop'
 alias v='vim'
 
 alias b='bundle exec'
+
+alias ny='nyarm'
