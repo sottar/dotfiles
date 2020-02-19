@@ -32,5 +32,6 @@ alias d='cd ~/Desktop'
 alias v='vim'
 
 alias b='bundle exec'
-
 alias ny='nyarm'
+
+alias gh="open \`git remote get-url origin | sed -e 's/:/\//' -e 's/git@/http:\/\//' -e 's/\.git//'\`"
