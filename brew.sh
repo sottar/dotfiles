@@ -9,6 +9,7 @@ brew install node-build
 brew install git
 brew install go
 brew install jq
+brew install minikube
 brew install peco
 brew install tig
 brew install tmux
@@ -34,4 +35,5 @@ brew cask install sequel-pro
 brew cask install sketch
 brew cask install slack
 brew cask install visual-studio-code
+brew cask install virtualbox
 brew cask install zeplin
