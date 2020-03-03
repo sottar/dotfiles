@@ -1,15 +1,19 @@
 brew update
 brew upgrade
 
+brew tap shyiko/kubesec
+brew tap caskroom/versions
+
 brew install ag
 brew install autoconf
 brew install direnv
-brew install hugo
-brew install node-build
 brew install git
 brew install go
+brew install hugo
 brew install jq
+brew install kubesec
 brew install minikube
+brew install node-build
 brew install peco
 brew install tig
 brew install tmux
@@ -18,7 +22,6 @@ brew install wget
 brew install z
 brew install zsh
 
-brew tap caskroom/versions
 
 brew cask install 1password
 brew cask install alfred
