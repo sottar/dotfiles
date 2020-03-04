@@ -11,6 +11,9 @@ brew install git
 brew install go
 brew install hugo
 brew install jq
+brew install kubectl
+brew install kubectx
+brew install kubens
 brew install kubesec
 brew install minikube
 brew install node-build
