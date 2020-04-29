@@ -43,6 +43,7 @@ brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install iterm2
 brew cask install karabiner-elements
+brew cask install ngrok
 brew cask install sequel-pro
 brew cask install sketch
 brew cask install slack
