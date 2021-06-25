@@ -1,8 +1,9 @@
 brew update
 brew upgrade
 
-brew tap caskroom/versions
+brew taproom/versions --cask
 brew tap jhawthorn/fzy
+brew tap knqyf263/utern
 brew tap shyiko/kubesec
 
 brew install ag
@@ -15,6 +16,7 @@ brew install git
 brew install go
 brew install hugo
 brew install jq
+brew install knqyf263/utern/utern
 brew install kubectl
 brew install kubectx
 brew install kubesec
@@ -32,21 +34,21 @@ brew install wget
 brew install z
 brew install zsh
 
-brew cask install 1password
-brew cask install alfred
-brew cask install bettertouchtool
-brew cask install clipy
-brew cask install docker
-brew cask install figma
-brew cask install firefox
-brew cask install google-chrome
-brew cask install google-chrome-canary
-brew cask install iterm2
-brew cask install karabiner-elements
-brew cask install ngrok
-brew cask install sequel-pro
-brew cask install sketch
-brew cask install slack
-brew cask install visual-studio-code
-brew cask install virtualbox
-brew cask install zeplin
+brew install 1password --cask
+brew install alfred --cask
+brew install bettertouchtool --cask
+brew install clipy --cask
+brew install docker --cask
+brew install figma --cask
+brew install firefox --cask
+brew install google-chrome --cask
+brew install google-chrome-canary --cask
+brew install iterm2 --cask
+brew install karabiner-elements --cask
+brew install ngrok --cask
+brew install sequel-pro --cask
+brew install sketch --cask
+brew install slack --cask
+brew install visual-studio-code --cask
+brew install virtualbox --cask
+brew install zeplin --cask
