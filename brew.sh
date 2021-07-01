@@ -9,6 +9,8 @@ brew tap shyiko/kubesec
 brew install ag
 brew install autoconf
 brew install bat
+brew install bazelisk
+brew install buildozer
 brew install ccat
 brew install direnv
 brew install fzy
@@ -24,7 +26,10 @@ brew install kubernetes-helm
 brew install kustomize
 brew install minikube
 brew install node-build
+brew install nodenv
 brew install peco
+brew install pyenv
+brew install rbenv
 brew install ripgrep
 brew install skaffold
 brew install tig

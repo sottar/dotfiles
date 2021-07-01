@@ -10,8 +10,8 @@ chsh -s /usr/local/bin/zsh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 #install nodenv, rbenv, pyenv
-git clone https://github.com/nodenv/nodenv.git ~/.nodenv
-git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+# git clone https://github.com/nodenv/nodenv.git ~/.nodenv
+# git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 git clone https://github.com/yyuu/pyenv.git ~/.pyenv
 
@@ -26,6 +26,7 @@ rm -rf vim-railscasts-theme/
 
 # symlinks
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/.zshrc ~/.zprofile
 ln -sf ~/dotfiles/.aliases ~/.aliases
 ln -sf ~/dotfiles/.functions ~/.functions
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
