@@ -35,10 +35,12 @@ brew install peco
 brew install protobuf
 brew install protoc-gen-go
 brew install protoc-gen-go-grpc
+brew install pwgen
 brew install pyenv
 brew install rbenv
 brew install ripgrep
 brew install skaffold
+brew install terraform
 brew install tig
 brew install tmux
 brew install vim
@@ -50,7 +52,9 @@ brew install zsh
 brew install 1password --cask
 brew install alfred --cask
 brew install bettertouchtool --cask
+brew install charles --cask
 brew install clipy --cask
+brew install discord --cask
 brew install docker --cask
 brew install figma --cask
 brew install firefox --cask
@@ -63,5 +67,5 @@ brew install sequel-pro --cask
 brew install sketch --cask
 brew install slack --cask
 brew install visual-studio-code --cask
-brew install virtualbox --cask
-brew install zeplin --cask
+# brew install virtualbox --cask
+# brew install zeplin --cask
