@@ -26,7 +26,7 @@ rm -rf vim-railscasts-theme/
 
 # symlinks
 ln -sf ~/dotfiles/.zshrc ~/.zshrc
-ln -sf ~/dotfiles/.zshrc ~/.zprofile
+ln -sf ~/dotfiles/.zprofile ~/.zprofile
 ln -sf ~/dotfiles/.aliases ~/.aliases
 ln -sf ~/dotfiles/.functions ~/.functions
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
