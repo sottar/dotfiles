@@ -13,6 +13,7 @@ brew install bat
 brew install bazelisk
 brew install buf
 brew install buildozer
+brew install cocoapods
 brew install ccat
 brew install clang-format
 brew install direnv
@@ -20,6 +21,7 @@ brew install fzy
 brew install git
 brew install go
 brew install graphviz
+brew install grpcurl
 brew install hugo
 brew install jq
 brew install knqyf263/utern/utern
@@ -28,6 +30,7 @@ brew install kubectx
 brew install kubesec
 brew install kubernetes-helm
 brew install kustomize
+brew install lsof
 brew install minikube
 brew install node-build
 brew install nodenv
@@ -58,6 +61,7 @@ brew install discord --cask
 brew install docker --cask
 brew install figma --cask
 brew install firefox --cask
+brew install flutter --cask
 brew install google-chrome --cask
 brew install google-chrome-canary --cask
 brew install iterm2 --cask

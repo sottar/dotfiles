@@ -38,4 +38,7 @@
 [user]
   email = ohrst.18@gmail.com
   name = sottar
+[url "git@github.com:"]
+  insteadOf = https://github.com/
 [init]
+	defaultBranch = main

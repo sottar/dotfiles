@@ -37,4 +37,4 @@ alias dc='docker-compose'
 
 alias ny='nyarm'
 
-alias gh="open \`git remote get-url origin | sed -e 's/:/\//' -e 's/git@/http:\/\//' -e 's/\.git//'\`"
+alias ghp="open \`git remote get-url origin | sed -e 's/:/\//' -e 's/git@/http:\/\//' -e 's/\.git//'\`"
