@@ -64,11 +64,12 @@ brew install firefox --cask
 brew install flutter --cask
 brew install google-chrome --cask
 brew install google-chrome-canary --cask
+brew install google-cloud-sdk --cask
 brew install iterm2 --cask
 brew install karabiner-elements --cask
 brew install ngrok --cask
-brew install sequel-pro --cask
-brew install sketch --cask
+# brew install sequel-pro --cask
+# brew install sketch --cask
 brew install slack --cask
 brew install visual-studio-code --cask
 # brew install virtualbox --cask
