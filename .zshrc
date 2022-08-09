@@ -6,7 +6,8 @@ setopt print_eight_bit
 
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="original"
-plugins=(git)
+# plugins=(git)
+plugins=( git zsh-z )
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source $ZSH/oh-my-zsh.sh
 
@@ -14,12 +15,12 @@ source $ZSH/oh-my-zsh.sh
 export NODENV_ROOT="$HOME/.nodenv"
 export PATH="$NODENV_ROOT/bin:$PATH"
 export PATH="$NODENV_ROOT/shims:/usr/local/bin:/usr/bin:/bin"
-eval "$(nodenv init -)"
+# eval "$(nodenv init -)"
 
 # rbenv
 export RBENV_ROOT="$HOME/.rbenv"
 export PATH="$RBENV_ROOT/bin:$PATH"
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"
 
 # pyenv
 # export PYENV_ROOT="$HOME/.pyenv"
@@ -42,7 +43,7 @@ for file in ~/.{functions,aliases}; do
 done
 
 # z
-. /usr/local/etc/profile.d/z.sh
+# . /usr/local/etc/profile.d/z.sh
 
 
 function peco-z-search() {
@@ -90,3 +91,9 @@ if [ -f '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/path.zsh
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/completion.zsh.inc'; fi
 export PATH="$HOME/.nodenv/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/sottar/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sottar/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/sottar/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sottar/google-cloud-sdk/completion.zsh.inc'; fi
