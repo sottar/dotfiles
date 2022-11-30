@@ -1,3 +1,6 @@
+autoload -U compinit
+compinit -u
+
 alias g='git'
 compdef g=git
 alias ga='git add'

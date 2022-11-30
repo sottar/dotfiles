@@ -19,8 +19,6 @@ git clone https://github.com/yyuu/pyenv.git ~/.pyenv
 mkdir ~/.vim & cd ~/.vim
 mkdir colors
 git clone git@github.com:jpo/vim-railscasts-theme.git
-mkdir  ~/.vim/
-mkdir ~/.vim/colors/
 cp vim-railscasts-theme/colors/railscasts.vim ~/.vim/colors/railscasts.vim
 rm -rf vim-railscasts-theme/
 
