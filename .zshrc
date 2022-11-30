@@ -42,6 +42,14 @@ for file in ~/.{functions,aliases}; do
   [ -r "$file" ] && source "$file"
 done
 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+
+
+# eval "$(rbenv init -)"
+# eval "$(nodenv init -)"
+
 # z
 # . /usr/local/etc/profile.d/z.sh
 
@@ -84,6 +92,9 @@ bindkey '^r' peco-select-history
 
 # deno
 export PATH=/Users/SotaOhara/.deno/bin:$PATH
+
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sotaohara/Downloads/google-cloud-sdk/y/google-cloud-sdk/path.zsh.inc'; fi

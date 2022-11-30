@@ -18,6 +18,7 @@ brew install ccat
 brew install clang-format
 brew install direnv
 brew install fzy
+brew install gh
 brew install git
 brew install go
 brew install graphviz
