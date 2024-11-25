@@ -38,6 +38,6 @@ alias b='bundle exec'
 alias d='docker'
 alias dc='docker-compose'
 
-alias ny='nyarm'
+alias pn='pnpm'
 
 alias ghp="open \`git remote get-url origin | sed -e 's/:/\//' -e 's/git@/http:\/\//' -e 's/\.git//'\`"

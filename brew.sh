@@ -20,6 +20,7 @@ brew install direnv
 brew install fzy
 brew install gh
 brew install git
+brew install git-lfs
 brew install go
 brew install graphviz
 brew install grpcurl
@@ -31,10 +32,12 @@ brew install kubectx
 brew install kubesec
 brew install kubernetes-helm
 brew install kustomize
+brew install libpq
 brew install lsof
 brew install minikube
 brew install node-build
 brew install nodenv
+brew install nodenv/nodenv/nodenv-default-packages
 brew install peco
 brew install protobuf
 brew install protoc-gen-go
@@ -54,6 +57,7 @@ brew install z
 brew install zsh
 
 brew install 1password --cask
+brew install 1password/tap/1password-cli --cask
 brew install alfred --cask
 brew install bettertouchtool --cask
 brew install charles --cask

@@ -10,7 +10,6 @@
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.iconTheme": "vs-seti",
   "workbench.panel.location": "right",
-  "window.zoomLevel": 1,
   "window.title": "${activeEditorMedium}${separator}${rootName}",
   "files.associations": {
     "*.tag": "html",
@@ -41,16 +40,19 @@
     "editor.tabSize": 4
   },
   "[javascript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.formatOnSave": true
   },
   "[typescript]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.tree.horizontalScrolling": true,
   "breadcrumbs.enabled": true,
@@ -65,5 +67,15 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "prettier.requireConfig": true,
-  "java.configuration.checkProjectSettingsExclusions": false
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "color-highlight.markerType": "dot-after",
+  "window.zoomLevel": 1,
+  "github.copilot.editor.enableAutoCompletions": true
 }

@@ -2,6 +2,9 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 sh brew.sh
 
+# set git-lfs
+git lfs install
+
 # set installed zsh
 echo "/usr/local/bin/zsh" >> /etc/shells
 chsh -s /usr/local/bin/zsh

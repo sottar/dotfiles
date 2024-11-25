@@ -7,7 +7,8 @@ setopt print_eight_bit
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_THEME="original"
 # plugins=(git)
-plugins=( git zsh-z )
+# plugins=( git zsh-z )
+plugins=( git z )
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source $ZSH/oh-my-zsh.sh
 
@@ -23,9 +24,9 @@ export PATH="$RBENV_ROOT/bin:$PATH"
 # eval "$(rbenv init -)"
 
 # pyenv
-# export PYENV_ROOT="$HOME/.pyenv"
-# export PATH="$PYENV_ROOT/bin:$PATH"
-# eval "$(pyenv init -)"
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
 
 # gopath
 export GOPATH="$HOME/.go"
@@ -41,9 +42,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 for file in ~/.{functions,aliases}; do
   [ -r "$file" ] && source "$file"
 done
-
-# z
-# . /usr/local/etc/profile.d/z.sh
 
 
 function peco-z-search() {
@@ -97,3 +95,16 @@ if [ -f '/Users/sottar/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sottar/g
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/sottar/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sottar/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Set PATH, MANPATH, etc., for Homebrew.
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Postgres
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH="/opt/homebrew/opt/lsof/bin:$PATH"
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
