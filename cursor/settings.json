@@ -1,0 +1,85 @@
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "editor.tabSize": 2,
+    "editor.cursorStyle": "line",
+    "editor.renderWhitespace": "all",
+    "editor.wordWrap": "on",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "vs-seti",
+    "workbench.panel.location": "right",
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "files.associations": {
+        "*.tag": "html",
+        "*.twig": "php",
+        "*.ts": "typescriptreact"
+    },
+    "flow.pathToFlow": "./node_modules/.bin/flow",
+    "javascript.validate.enable": false,
+    "typescript.check.npmIsInstalled": false,
+    "emmet.syntaxProfiles": {
+        "javascript": "ts"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "typescriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "python.formatting.provider": "yapf",
+    "python.linting.flake8Enabled": true,
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{based_on_style: google, column_limit: 120}"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "editor.tabSize": 4
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.tree.horizontalScrolling": true,
+    "breadcrumbs.enabled": true,
+    "[go]": {
+        "editor.formatOnSave": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.requireConfig": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "color-highlight.markerType": "dot-after",
+    "window.zoomLevel": 1,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "workbench.editor.enablePreview": false,
+    "editor.codeActionsOnSave": {
+        
+    }
+}

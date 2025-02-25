@@ -16,25 +16,10 @@ function unidecode() {
   echo # newline
 }
 
-# sublime
-function sblm() {
-  open -a Sublime\ Text $*;
-}
-
-# vscode
-function code() {
-  open -a Visual\ Studio\ Code $*;
-}
-
-# atom
-function atom() {
-  open -a Atom $*;
-}
-
 # git
 ## The name of the current branch
 function current_branch() {
-  git_current_branch
+  git rev-parse --abbrev-ref HEAD
 }
 
 ## The list of remotes
@@ -45,13 +30,18 @@ function current_repository() {
   echo $($_omz_git_git_cmd remote -v | cut -d':' -f 2)
 }
 
+# vscode
+function code() {
+  open -a Cursor $*;
+}
+
 # open memo in vscode
 function memo() {
   echo -e '\e[34;1mpulling latest... \e[m'
   cd ~/workspace/memo
   ggpull
   cd -
-  open -a Visual\ Studio\ Code ~/workspace/memo;
+  open -a Cursor ~/workspace/memo;
 }
 
 function o() {
@@ -79,3 +69,12 @@ function nr() {
   echo -e "\e[30;1m> npm run $* \e[m"
   npm run $*;
 }
+
+## fzf
+function fzf-select-history() {
+    BUFFER=$(history -n -r 1 | fzf --query "$LBUFFER")
+    CURSOR=$#BUFFER
+    zle reset-prompt
+}
+zle -N fzf-select-history
+bindkey '^r' fzf-select-history

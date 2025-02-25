@@ -26,23 +26,22 @@ cp vim-railscasts-theme/colors/railscasts.vim ~/.vim/colors/railscasts.vim
 rm -rf vim-railscasts-theme/
 
 # symlinks
-ln -sf ~/dotfiles/.zshrc ~/.zshrc
-ln -sf ~/dotfiles/.zprofile ~/.zprofile
-ln -sf ~/dotfiles/.aliases ~/.aliases
-ln -sf ~/dotfiles/.functions ~/.functions
-ln -sf ~/dotfiles/.vimrc ~/.vimrc
-ln -sf ~/dotfiles/.gitconfig ~/.gitconfig
-ln -sf ~/dotfiles/.gitignore ~/.gitignore
-ln -sf ~/dotfiles/.tigrc ~/.tigrc
+ln -sf ~/dotfiles/.zshrc ~/.config/.zshrc
+ln -sf ~/dotfiles/.zprofile ~/.config/.zprofile
+ln -sf ~/dotfiles/.aliases ~/.config/.aliases
+ln -sf ~/dotfiles/.functions ~/.config/.functions
+ln -sf ~/dotfiles/.vimrc ~/.config/.vimrc
+ln -sf ~/dotfiles/.gitconfig ~/.config/.gitconfig
+ln -sf ~/dotfiles/.gitignore ~/.config/.gitignore
+ln -sf ~/dotfiles/.tigrc ~/.config/.tigrc
+ln -sf ~/dotfiles/sheldon ~/.config/sheldon
+ln -sf ~/dotfiles/configs/starship.toml ~/.config/starship.toml
+ln -sf ~/dotfiles/warp ~/.warp
 # ln -sf ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 # ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 # ln -sf ~/dotfiles/vscode/.eslintignore ~/Library/Application\ Support/Code/User/.eslintignore
 # ln -sf ~/dotfiles/vscode/snippets/* ~/Library/Application\ Support/Code/User/snippets/
 # ln -sf ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
-
-# ohmyzsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-ln -sf ~/dotfiles/oh-my-zsh/original.zsh-theme ~/.oh-my-zsh/themes/original.zsh-theme
 
 source ~/.zshrc
 
