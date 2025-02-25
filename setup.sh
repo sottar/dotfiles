@@ -41,6 +41,8 @@ ln -sf ~/dotfiles/warp ~/.warp
 # ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 # ln -sf ~/dotfiles/vscode/.eslintignore ~/Library/Application\ Support/Code/User/.eslintignore
 # ln -sf ~/dotfiles/vscode/snippets/* ~/Library/Application\ Support/Code/User/snippets/
+ln -sf ~/dotfiles/cursor/keybindings.json ~/Library/Application\ Support/Cursor/User/keybindings.json
+ln -sf ~/dotfiles/cursor/settings.json ~/Library/Application\ Support/Cursor/User/settings.json
 # ln -sf ~/dotfiles/karabiner.json ~/.config/karabiner/karabiner.json
 
 source ~/.zshrc
